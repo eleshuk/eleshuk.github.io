@@ -1,0 +1,35 @@
+.logo {
+    position: fixed; top: 0; left:0;
+    right: 90%;
+    top: -1%;
+    height: 80px;
+    width: 200px;
+  }
+
+  h1{
+    font-size: 60px;
+    color: #28630d;
+    text-align: center;
+    text-shadow: 1px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  ul{
+    text-align: center;
+    list-style-position: inside;
+  }
+  body{
+    background-color:white;
+  }
+  /* div{
+    position: fixed;
+  } */
+  

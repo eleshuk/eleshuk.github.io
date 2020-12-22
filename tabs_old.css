@@ -28,7 +28,7 @@
 .tabContainer .tabPanel{
     height: 85%;
     background-color: gray;
-    color: white;
+    color:darkgreen;
     text-align: center;
     padding-top: 105px;
     box-sizing: border-box;
@@ -36,3 +36,20 @@
     font-size: 22px;
     display: none;
 }
+/* <!-- Tabs -->
+<!-- <div class="tabContainer">
+  <div class="buttonContainer">
+    <button>Home</button>
+    <button>My Work</button>
+    <button>About Me</button>
+    <button>Contact</button>
+  </div>
+  <div class="tabPanel">Home: Content</div>
+  <div class="tabPanel">My Work: Content</div>
+  <div class="tabPanel">About Me: Content</div>
+  <div class="tabPanel">Contact: Content</div>
+</div> -->
+
+<!-- <div class="construction">
+  <img src="under-construction.gif" alt="Construction">
+</div> --> */
