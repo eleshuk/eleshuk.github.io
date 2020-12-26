@@ -1,7 +1,7 @@
 .logo {
     position: fixed; top: 0; left:0;
     right: 90%;
-    top: -1%;
+    top: -3.5%;
     height: 80px;
     width: 200px;
   }
@@ -32,4 +32,7 @@
   /* div{
     position: fixed;
   } */
-  
+
+.nav-item-logo {
+  position: relative;
+}
