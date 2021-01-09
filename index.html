@@ -1,3 +1,4 @@
+<!-- This is the navbar and landing page code -->
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -10,8 +11,8 @@
 <!-- Add navbar -->
 <body>
   <nav class = "navbar navbar-expand-sm navbar-light bg-light">
-      <a href="#" class = "navbar-brand">
-        <img src="Logo_fixed.PNG" class="logo">
+      <a href="index.html" class = "navbar-brand">
+        <img src="Images/fixed_logo.jpeg" class="logo">
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
           <span class="navbar-toggler-icon"></span>
@@ -19,13 +20,14 @@
       <div class = "collapse navbar-collapse" id="navbarMenu">
           <ul class = "navbar-nav ml-auto">
               <li class = "nav-item">
-                  <a href ="#" class = "nav-link">About Me</a>
+                <!-- in the href is where you essentially link your navbar to other html files with other info -->
+                  <a href ="about_me.html" class = "nav-link">About Me</a>
               </li>
               <li class = "nav-item">
-                  <a href="#" class = "nav-link">My Work</a>
+                  <a href="my_work.html" class = "nav-link">My Work</a>
               </li>
               <li class = "nav-item">
-                  <a href ="#" class = "nav-link">Contact</a>
+                  <a href ="contact.html" class = "nav-link">Contact</a>
               </li>
           </ul>
       </div> 
@@ -42,8 +44,9 @@
 
 
 <!-- Adding under construction sign and logo. Remove these later.-->
-<img src="under-construction.gif", alt="Construction", width="600">
+<!-- <img src="under-construction.gif", alt="Construction", width="600"> -->
 <!-- <img src="Logo_fixed.PNG" class="logo"> -->
+
 
 <!-- Need links to all of these pages. Logo should take you to the welcome page. No need for a welcome tab -->
 <!-- Welcome Page -->
@@ -63,26 +66,45 @@
 
 
 <body>
-<h1>Elizabeth Leshuk</h1>
+  <h1 class="header">Elizabeth Leshuk</h1>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure"> 
+        <img id="bio-image" src="EL_profile.PNG" alt="Elizabeth Leshuk Profile" width="300" height="400">
+      </section>
+      <p> My name is Elizabeth and I'm an aspiring sustainability analyst. <br>
+        My degree in environmental science and FINISH THIS <br>
+        My key interests include ethical sourcing and fair trade, sustainable agriculture, environmental awareness and education, and protecting natural resources. <br>
+      </p>
+    </section>
 
-<img src="EL_profile.PNG" alt="Elizabeth Leshuk Profile" width="300" height="400">
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong><br><a href="#email">eleshuk@gmail.com</a><br></li>
+        <li><strong>Github:</strong><br> <a href="#github">https://github.com/eleshuk</a><br></li>
+        <li><strong>LinkedIn:</strong><br> <a href="#linkedin">https://www.linkedin.com/in/eleshuk/</a><br><br></li>
+      </ul>
+    </aside>
+  </main>
 
-<p>
-  Welcome!
-</p>
-<p>
-  My name is Elizabeth and I'm an aspiring sustainability analyst. <br>
-  My degree in environmental science and FINISH THIS <br>
-  My key interests include ethical sourcing and fair trade, sustainable agriculture, environmental awareness and education, and protecting natural resources. <br>
-</p>
-<body>
-  <p>A second short paragraph about yourself or some placeholder text.</p>
-  <ul>
-    <strong>Email:</strong><br><a href="#email">eleshuk@gmail.com</a><br>
-    <strong>Github:</strong><br> <a href="#github">https://github.com/eleshuk</a><br>
-    <strong>LinkedIn:</strong><br> <a href="#linkedin">https://www.linkedin.com/in/eleshuk/</a><br><br>
-  </ul>
-</p>
+
+<!--   
+  <p>
+    Welcome!
+  </p>
+  <p>
+    My name is Elizabeth and I'm an aspiring sustainability analyst. <br>
+    My degree in environmental science and FINISH THIS <br>
+    My key interests include ethical sourcing and fair trade, sustainable agriculture, environmental awareness and education, and protecting natural resources. <br>
+  </p>
+    <p>A second short paragraph about yourself or some placeholder text.</p>
+    <ul>
+      <strong>Email:</strong><br><a href="#email">eleshuk@gmail.com</a><br>
+      <strong>Github:</strong><br> <a href="#github">https://github.com/eleshuk</a><br>
+      <strong>LinkedIn:</strong><br> <a href="#linkedin">https://www.linkedin.com/in/eleshuk/</a><br><br>
+    </ul>
+  </p> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -90,5 +112,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
 
